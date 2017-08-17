@@ -1,0 +1,27 @@
+# Environment variables override configuration and credential files and can be useful for scripting or
+# temporarily setting a named profile as the default.
+
+# The following variables are supported by the AWS CLI
+
+AWS_ACCESS_KEY_ID=
+#- AWS access key
+
+AWS_SECRET_ACCESS_KEY=
+#– AWS secret key. Access and secret key variables override credentials stored in credential and config files.
+
+AWS_SESSION_TOKEN=
+#– session token. A session token is only required if you are using temporary security credentials.
+
+AWS_DEFAULT_REGION=
+#– AWS region. This variable overrides the default region of the in-use profile, if set.
+
+AWS_DEFAULT_PROFILE=
+#– name of the CLI profile to use. This can be the name of a profile stored in a credential or config file, or default to use the default profile.
+
+AWS_CONFIG_FILE=
+#– path to a CLI config file.
+
+# If the config file variable is set, aws configure will write region and output settings to the specified file,
+# and the CLI will attempt to read profiles' settings from there instead of the default file (~/.aws/config).
+# Credentials will still be read from and written to the default credentials file (~/.aws/credentials).
+

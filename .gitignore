@@ -1,0 +1,12 @@
+# ignore .direnv
+.direnv
+
+# package directories
+node_modules
+jspm_packages
+
+# Serverless directories
+.serverless
+
+# ignore .vars file
+.vars
