@@ -8,6 +8,10 @@
 
 - [PyEnv Setup](doc/PYENV.md)
 
+## Create file to hold env vars
+
+`touch .vars`
+
 ## Install python libraries
 
 `pip install -r requirements.txt`
