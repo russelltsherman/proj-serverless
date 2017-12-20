@@ -12,6 +12,12 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "serverless": "^1.6.1"
+    "eslint": "4.13.1",
+    "eslint-config-google": "0.9.1",
+    "serverless": "1.25.0",
+    "serverless-pseudo-parameters": "1.2.5"
+  },
+  "dependencies": {
+    "aws-sdk": "2.173.0"
   }
 }

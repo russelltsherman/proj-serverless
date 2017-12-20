@@ -1,0 +1,21 @@
+{
+  "parserOptions":{
+     "ecmaVersion":2017,
+     "sourceType":"module",
+     "ecmaFeatures":{
+        "impliedStrict":true
+     }
+  },
+  "extends":"google",
+  "rules":{
+     "max-len":[
+        "error",
+        {
+           "ignoreComments":true,
+           "ignoreTrailingComments":true,
+           "ignoreTemplateLiterals":true,
+           "ignoreStrings":true
+        }
+     ]
+  }
+}
