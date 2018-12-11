@@ -1,21 +1,27 @@
 {
-  "parserOptions":{
-     "ecmaVersion":2017,
-     "sourceType":"module",
-     "ecmaFeatures":{
-        "impliedStrict":true
-     }
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "es6": true,
+    "node": true
   },
-  "extends":"google",
-  "rules":{
-     "max-len":[
-        "error",
-        {
-           "ignoreComments":true,
-           "ignoreTrailingComments":true,
-           "ignoreTemplateLiterals":true,
-           "ignoreStrings":true
-        }
-     ]
+  "extends": ["airbnb", "prettier"],
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": "error",
+    "camelcase": "off",
+    "max-len": [
+      "error",
+      {
+        "ignoreComments": true,
+        "ignoreTrailingComments": true,
+        "ignoreTemplateLiterals": true,
+        "ignoreStrings": true
+      }
+    ]
   }
 }
